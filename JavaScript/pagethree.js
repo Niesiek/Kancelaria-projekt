@@ -1,4 +1,4 @@
-fetch('./Text/czymsiezajmuje.txt')
+fetch('/Text/czymsiezajmuje.txt')
     .then(response => {
         if (!response.ok) {
             throw new Error('Błąd wczytywania pliku!');
