@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Libre Baskerville', serif;
-    background-image: url(/IMG/page_four.jpg);
+    background-image: url(./IMG/page_four.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
