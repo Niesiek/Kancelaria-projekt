@@ -292,7 +292,8 @@ h2 {
 }
 @media (max-width: 768px){
     body {
-        overflow: auto; 
+        overflow-y: auto;
+        overflow-x: hidden; 
         background-color: #131e3d; 
     }
     #about {
