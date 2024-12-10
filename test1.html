@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kancelaria Tomasz Majer</title>
+    <style>
+        :root {
+            --primary-color: #C4A484;
+            --dark-bg: #1C1C1C;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--primary-color);
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .nav {
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4rem 2rem;
+        }
+        
+        .hero-content {
+            max-width: 50%;
+        }
+        
+        .hero-image {
+            width: 40%;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span>§</span>
+            <h2>Kancelaria Tomasz Majer</h2>
+        </div>
+        <nav class="nav">
+            <a href="#">Strona główna</a>
+            <a href="#">O kancelarii</a>
+            <a href="#">Czym się zajmujemy?</a>
+            <a href="#">Nasz zespół</a>
+            <a href="#">Kontakt</a>
+        </nav>
+    </header>
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Usługi prawne najwyższej klasy</h1>
+            <p>Jesteśmy dumni, że możemy pomagać ludziom z różnych środowisk w osiągnięciu sprawiedliwości i pokoju, na które zasługują.</p>
+        </div>
+        <img class="hero-image" src="temida.jpg" alt="Posąg Temidy">
+    </main>
+</body>
+</html>
