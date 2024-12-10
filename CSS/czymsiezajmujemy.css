@@ -139,7 +139,6 @@ h2 {
 }
 @media screen and (max-width: 1710px) {
   body{
-      overflow-y: scroll;
       overflow-x: hidden;
       width: 100%;
   }
